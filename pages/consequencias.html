@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/colors.css">
     <link rel="stylesheet" href="../src/css/style.css">
     <title>Consequências das Enchentes</title>
 </head>
-<body class="body-consequencias">
+<body>
     <header>
         <nav>
             <img src="../src/assets/logo.png" alt="logo-area" class="logo">
@@ -21,13 +22,28 @@
                 <li><a href="../pages/consequencias.html">Consequências</a></li>
                 <li><a href="https://gs-vigiaenchente.streamlit.app" target="_blank" class="streamlit-header">Kit de Emergência</a></li>
             </ul>
+            <div class="theme-selector" aria-label="Seleção de tema">
+                <div class="theme-dot" data-theme="light" title="Claro"></div>
+                <div class="theme-dot" data-theme="dark" title="Escuro"></div>
+                <div class="theme-dot" data-theme="solarized" title="Solarizado"></div>
+            </div>
         </nav>
     </header>
     <main>
-        <div class="Consequências">
-            <h2>Consequências das enchentes</h2>
-            <p>As enchentes podem ter consequências graves, afetando tanto o ambiente como a população. Elas podem levar a danos materiais, perda de vidas, proliferação de doenças e alterações nos ecossistemas locais</p>
-        </div>
+        <section class="consequencias-section">
+          <h2>Consequências das Enchentes</h2>
+          <p>
+            As enchentes podem trazer impactos devastadores para o meio ambiente e a sociedade.
+            Abaixo estão algumas das principais consequências:
+          </p>
+          <ul class="consequencias-lista">
+            <li><strong>Perda de vidas humanas:</strong> Áreas alagadas podem se tornar fatais rapidamente.</li>
+            <li><strong>Danos materiais:</strong> Casas, comércios e infraestruturas são destruídos pelas águas.</li>
+            <li><strong>Doenças:</strong> A água contaminada facilita surtos de leptospirose, hepatite e outras enfermidades.</li>
+            <li><strong>Impacto ambiental:</strong> Ecossistemas locais são comprometidos, afetando a fauna e flora.</li>
+            <li><strong>Deslocamento forçado:</strong> Famílias são obrigadas a deixar suas casas temporária ou permanentemente.</li>
+          </ul>
+        </section>
     </main>
     <footer>
         <div class="footer-content">
